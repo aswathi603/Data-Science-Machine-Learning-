@@ -1,0 +1,72 @@
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+scikit-learn
+ipykernel
+
+# Deep Learning
+tensorflow
+keras
+torch
+torchvision
+torchaudio
+pytorch-lightning
+fastai
+
+
+# Boosting Algorithms / Advanced ML
+xgboost
+lightgbm
+catboost
+
+# Visualization (Interactive)
+plotly
+bokeh
+altair
+
+# NLP
+nltk
+spacy
+gensim
+transformers
+sentence-transformers
+textblob
+flair
+
+# Computer Vision
+#opencv-python
+#albumentations
+#mediapipe
+
+# Data Processing / Big Data
+# dask
+# vaex
+# polars
+# pyspark
+
+# Web Scraping / Data Collection
+requests
+beautifulsoup4
+scrapy
+
+# Stats & Time-Series
+statsmodels
+pmdarima
+tsfresh
+
+# Deployment
+flask
+fastapi
+uvicorn
+django
+streamlit
+gradio
+onnxruntime
+
+
+# Utilities
+joblib
+tqdm
+pyyaml
