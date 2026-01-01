@@ -1,0 +1,18 @@
+Linear Regression ML - IV/
+│
+├── Assignment/
+│   └── Assignment Solution/
+│       ├── boston-housing/
+│       │   ├── train.csv
+│       │   ├── test.csv
+│       │   └── submission_example.csv
+│       │
+│       ├── Predict_housing_medv.py
+│       ├── streamlit_app.py
+│       ├── train_model.py
+│       ├── Project Overview.txt
+│       ├── Project Structure.txt
+│       └── assignment.txt
+│
+├── venv/
+└── requirements.txt

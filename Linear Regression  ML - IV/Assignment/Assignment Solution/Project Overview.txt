@@ -1,0 +1,16 @@
+Boston Housing Price Prediction
+
+Python CLI + Streamlit App | Pickle | Linear Regression
+
+This mini project converts a Jupyter notebook (linear_regression_test.ipynb) into:
+
+A Python class-based prediction system
+
+A command-line interface (CLI) app
+
+A Streamlit web application
+
+Uses pickle for saving/loading ML artifacts
+
+Dataset used: Boston Housing Dataset
+Target: MEDV (Median value of owner-occupied homes)
