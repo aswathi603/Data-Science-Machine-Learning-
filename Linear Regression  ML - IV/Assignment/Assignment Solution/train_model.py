@@ -24,9 +24,9 @@ class TrainHousingModel:
         """
         Load data from CSV, detect target column, and return X, y.
         """
-        print("📌 Loading data from:", self.data_path)
+        print(" Loading data from:", self.data_path)
         df = pd.read_csv(self.data_path)
-        print("📊 Columns:", df.columns.tolist())
+        print(" Columns:", df.columns.tolist())
 
         # Drop unnamed columns (usually index columns)
         df = df.loc[:, ~df.columns.str.contains("Unnamed")]
@@ -45,7 +45,7 @@ class TrainHousingModel:
         else:
             target_col = df.columns[-1]
 
-        print("🎯 Target column used:", target_col)
+        print(" Target column used:", target_col)
 
         X = df.drop(target_col, axis=1)
         y = df[target_col]
@@ -77,7 +77,7 @@ class TrainHousingModel:
         with open(os.path.join(self.base_dir, "scaler.pkl"), "wb") as f:
             pickle.dump(self.scaler, f)
         
-        print("✅ Model and scaler saved successfully")
+        print(" Model and scaler saved successfully")
 
 if __name__ == "__main__":
     trainer = TrainHousingModel()

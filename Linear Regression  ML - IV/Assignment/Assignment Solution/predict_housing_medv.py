@@ -69,16 +69,16 @@ class predict_housing_medv:
 
                 # Predict once
                 prediction = self.predict(inputs)
-                print(f"\n✅ Predicted MEDV: ${prediction:.2f} (in thousands)\n")
+                print(f"\n Predicted MEDV: ${prediction:.2f} (in thousands)\n")
 
                 # Ask user if they want to continue
                 choice = input("Do you want to predict again? (y/n): ").lower()
                 if choice != 'y':
-                    print("👋 Exiting predictor. Thank you!")
+                    print(" Exiting predictor. Thank you!")
                     break
 
             except ValueError as e:
-                print(f"❌ Invalid input: {e}\n")
+                print(f" Invalid input: {e}\n")
 
 
 # Example usage for terminal (uncomment to run directly)
